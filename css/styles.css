@@ -1,0 +1,13 @@
+/*
+черный    #212121
+синий     #2196F3
+серый     #757575
+белый     #FFFFFF
+*/
+.nav-header {
+  color: black;
+  font-size: 14px;
+}
+.nav-header:hover {
+  color: #2196f3;
+}
