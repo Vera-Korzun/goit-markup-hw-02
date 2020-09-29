@@ -52,6 +52,9 @@ body {
 .nav-link:focus {
   color: var(--accent-color);
 }
+.nav-site .nav-link.current {
+  color: var(--accent-color);
+}
 .cont-info {
   color: var(--primary-text-color);
 }
@@ -92,6 +95,9 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
+  /*padding: 12px 24px;*/
+  display: inline-block;
+  border-radius: 4px;
 }
 .button:hover,
 .button:active {
