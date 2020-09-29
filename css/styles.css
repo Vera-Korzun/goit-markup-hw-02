@@ -1,9 +1,9 @@
 /*
 основной черный          #212121
 акцент   синий           #2196F3
-вторичный серый          #757575
+основной серый           #757575
 белый                    #FFFFFF
-email & tel              rgba(255, 255, 255, 0.6)
+email & tel footer       rgba(255, 255, 255, 0.6)
 основной background      #FFFFFF
 вторичный т background   #2F303A
 вторичный св background  #F5F4FA
@@ -12,10 +12,15 @@ email & tel              rgba(255, 255, 255, 0.6)
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+  --blue-color: #2196f3;
+  --info-footer-color: rgba(255, 255, 255, 0.6);
   --background-footer: #2f303a;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 .list {
@@ -34,7 +39,7 @@ body {
   color: var(--accent-color);
 }*/
 .logo-part {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 /*Site nav*/
@@ -73,8 +78,31 @@ body {
   background-color: var(--background-footer);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .address {
-  color: #ffffff;
+  color: var(--primary-white-color);
+}
+.info-footer {
+  color: var(--info-footer-color);
+}
+
+/*Button*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.button:hover,
+.button:active {
+  background-color: var(--accent-color);
+}
+.primary-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.primary-button:hover,
+.primary-button:active {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
 }
