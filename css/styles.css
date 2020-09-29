@@ -1,13 +1,80 @@
 /*
-черный    #212121
-синий     #2196F3
-серый     #757575
-белый     #FFFFFF
+основной черный          #212121
+акцент   синий           #2196F3
+вторичный серый          #757575
+белый                    #FFFFFF
+email & tel              rgba(255, 255, 255, 0.6)
+основной background      #FFFFFF
+вторичный т background   #2F303A
+вторичный св background  #F5F4FA
 */
-.nav-header {
-  color: black;
-  font-size: 14px;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-footer: #2f303a;
 }
-.nav-header:hover {
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Logo*/
+
+.logo {
+  color: var(--title-text-color);
+}
+/*.logo:hover {
+  color: var(--accent-color);
+}*/
+.logo-part {
   color: #2196f3;
+}
+
+/*Site nav*/
+
+.nav-link {
+  color: var(--title-text-color);
+  /*font-size: 14px;*/
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.cont-info {
+  color: var(--primary-text-color);
+}
+.cont-info:hover,
+.cont-info:focus {
+  color: var(--accent-color);
+}
+
+/*Qualities*/
+
+.qualities-list .title {
+  color: var(--title-text-color);
+}
+
+/*Our team*/
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+/*Footer*/
+
+.footer {
+  background-color: var(--background-footer);
+}
+.logo-footer {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
 }
