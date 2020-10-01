@@ -9,6 +9,7 @@
   --info-footer-color: rgba(255, 255, 255, 0.6);
   --background-footer: #2f303a;
 }
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -22,17 +23,23 @@ body {
   color: var(--title-text-color);
 
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
+
+  text-decoration: none;
 }
+
 /*.logo:hover {
   color: var(--accent-color);
 }*/
+
 .logo-part {
   color: var(--blue-color);
 }
 
 /*Site nav*/
+
 .nav-site {
   font-weight: 500;
   font-size: 14px;
@@ -42,14 +49,19 @@ body {
 
 .nav-link {
   color: var(--title-text-color);
+
+  text-decoration: none;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
 }
+
 .nav-site .nav-link.current {
   color: var(--accent-color);
 }
+
 .cont-info {
   color: var(--primary-text-color);
 
@@ -57,7 +69,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
+
 .cont-info:hover,
 .cont-info:focus {
   color: var(--accent-color);
@@ -68,6 +83,7 @@ body {
 .footer {
   background-color: var(--background-footer);
 }
+
 .logo-footer {
   color: var(--primary-white-color);
 
@@ -75,6 +91,7 @@ body {
   font-weight: 700;
   line-height: 1.2;
 }
+
 .address {
   color: var(--primary-white-color);
 
@@ -82,10 +99,13 @@ body {
   font-weight: 400;
   line-height: 1.7;
 }
+
 .info-footer {
   color: var(--info-footer-color);
 
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
+
+  text-decoration: none;
 }
