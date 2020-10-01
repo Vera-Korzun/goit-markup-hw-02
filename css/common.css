@@ -15,16 +15,12 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-h1,
-h2,
-h3 {
-  font-family: Roboto;
-}
 
 /*Logo*/
 
 .logo {
   color: var(--title-text-color);
+
   font-family: Raleway;
   font-weight: bold;
   line-height: 1.2;
@@ -56,6 +52,7 @@ h3 {
 }
 .cont-info {
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -73,15 +70,22 @@ h3 {
 }
 .logo-footer {
   color: var(--primary-white-color);
+
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.2;
 }
 .address {
   color: var(--primary-white-color);
+
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.7;
 }
 .info-footer {
   color: var(--info-footer-color);
+
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.7;
 }

@@ -12,8 +12,15 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .list {
   list-style: none;
 }
-.section-title {
+.section-title-main {
   color: var(--title-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*Qualities*/
@@ -22,12 +29,43 @@ email & tel footer       rgba(255, 255, 255, 0.6)
   color: var(--title-text-color);
 }
 
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.title-info {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 /*Our team*/
 
 .team .title {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
 }
 
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
 /*Button*/
 
 .button {
@@ -44,6 +82,14 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .primary-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  /*display: flex;*/
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .primary-button:hover,
 .primary-button:active {
