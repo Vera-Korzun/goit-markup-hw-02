@@ -29,13 +29,6 @@ email & tel footer       rgba(255, 255, 255, 0.6)
   color: var(--title-text-color);
 }
 
-.title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
 .title-info {
   font-size: 14px;
   line-height: 1.7;
@@ -58,22 +51,28 @@ email & tel footer       rgba(255, 255, 255, 0.6)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
+  /*text-align: center;*/
 }
 /*Button*/
 
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
-  /*padding: 12px 24px;*/
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
   display: inline-block;
   border-radius: 4px;
+
+  /*padding: 12px 24px;*/
 }
 .button:hover,
 .button:active {
@@ -101,4 +100,15 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .projects .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
 }
